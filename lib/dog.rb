@@ -2,11 +2,18 @@
 class Dog
   @@all = []
   
-  def initialize
+  def save 
     @@all << self
+  end
+  def initialize
+    self.save
   end 
   def self.all
     @@all
   end 
+  def self.print_all
+    puts "#{@@all[self]}"
+  end 
+  
   
 end 
