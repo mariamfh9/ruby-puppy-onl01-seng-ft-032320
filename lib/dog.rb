@@ -1,12 +1,16 @@
 # Add your code here
 class Dog
   @@all = []
-  
+  attr_accessor :dog_type
   def save 
     @@all << self
   end
-  def initialize
+  def initialize(dog_type)
     @@all.save
+    @dog_type = dog_type
+  end 
+  def dog_type
+    @dog_type
   end 
   def self.all
     @@all
