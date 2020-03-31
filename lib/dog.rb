@@ -15,5 +15,4 @@ class Dog
     puts "#{@@all[self]}"
   end 
   
-  
 end 
