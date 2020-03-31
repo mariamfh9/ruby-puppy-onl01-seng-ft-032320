@@ -5,9 +5,9 @@ class Dog
   def save 
     @@all << self
   end
-  def initialize
-    save
-  end 
+  #def initialize
+    #save
+  #end 
   def self.all
     @@all
   end 
